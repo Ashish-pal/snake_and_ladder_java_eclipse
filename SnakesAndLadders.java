@@ -47,7 +47,7 @@ public class SnakesAndLadders {
 	private Player[] getPlayers(Scanner sc) {
 		int numberOfPlayers = 2;
 		Player[] players = new Player[numberOfPlayers];
-		String[] markers = { "\u0061", "\u0062" };
+		String[] markers = { "\u0031", "\u0032" };
 
 		for (int i = 0; i < numberOfPlayers; i++) {
 			System.out.print("Enter Player ");
